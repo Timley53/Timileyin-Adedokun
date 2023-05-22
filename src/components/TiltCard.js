@@ -60,7 +60,7 @@ function TiltCard({cardRef, isIntersecting}) {
 
             return(
                 <Tilt
-                key={title}
+                key={i + 1}
                 className="track-on-window md:w-[130px] sm:w-[120px]"
                 perspective={500}
                 glareEnable={true}

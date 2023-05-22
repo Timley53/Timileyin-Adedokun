@@ -5,26 +5,9 @@ import {AiOutlineWhatsApp, AiOutlineLinkedin, AiOutlineMail, AiOutlineGithub} fr
 
 
 
-const iconsContact =[
-     {
-    name: 'Call',
-    link: '09056499020',
-    icon: HiPhoneIncoming,
-},
-
-{
-    name: 'WhatsApp',
-    link:'https://wa.me/message/QF4ERDN5JIYUP1',
-    icon: AiOutlineWhatsApp
-
-}
-
-
-
-]
 function Contact() {
   return (
-    <div className='bg-slate-200 pt-20 w-full'>
+    <div className='bg-slate-200 pt-20 w-full'  id='contact'>
          <h1 className='text-center'>Contact me</h1>
 
          <div className="text-center w-[60%] sm:w-[80%] mx-auto">

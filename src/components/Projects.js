@@ -84,7 +84,7 @@ export default Projects
 
 
 
-export function ReactProject({show}){
+export function ReactProject(){
 
 
     return(

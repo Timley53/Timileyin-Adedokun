@@ -9,7 +9,7 @@ import Projects from './Projects'
 
 
 
-function About({myRef}) {
+function About({navRef}) {
 
 const {ref, inView} = useInView()
 const animation = useAnimation()
@@ -31,7 +31,6 @@ const observer = new IntersectionObserver(([entry])=>{
   
   observer.observe(cardRef.current)
   
-console.log(inView);
 
   
 
@@ -41,7 +40,7 @@ console.log(inView);
 
 
   return (
-      <div className='bg-[#fcf9fc]' ref={myRef} id='about'>
+      <div className='bg-[#fcf9fc]' ref={navRef} id='about'>
     
          <motion.div ref={ref}
           initial={{opacity: 0}}

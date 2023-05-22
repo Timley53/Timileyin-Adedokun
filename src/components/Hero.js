@@ -22,7 +22,7 @@ function Hero() {
    I am a frontend web developer, <br className='sm:block hidden' /> i build user-friendly web applications and user interfaces. 
    </p>
 
-    <a href='#' className='p-2  self-start px-5 mt-[4rem] sm:mt-5 rounded text-white text-lg bg-sky-500 hover:bg-sky-700 hover:scale-105 transition duration-300'>
+    <a href='#' className='p-2  self-start px-5 mt-[5rem] sm:mt-5 rounded text-white text-lg bg-sky-500 hover:bg-sky-700 hover:scale-105 transition duration-300'>
         Learn more
     </a>
        </div>

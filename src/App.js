@@ -5,7 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 
 function App() {
-  const myRef = useRef()
+  const navRef = useRef()
   const [isVisible, setIsVisible] = useState(false)
 
 
@@ -19,20 +19,20 @@ function App() {
       
   
     },{
-      root: null,
-      threshold: 0.4,
-      triggerOnce: false,
+      rootMargin: '-50px'
     } )
   
-    observer.observe(myRef.current)
+    observer.observe(navRef.current)
+
+
+    return ()=> observer.disconnect()
   }, [isVisible])
-  
   
   
   return (
     <div className="App bg-[rgb(100,149,237)]" >
         <Header  isVisible={isVisible} />
-        <About isVisible={isVisible}  myRef={myRef} />
+        <About isVisible={isVisible}  navRef={navRef} />
         <Contact/>
     </div>
   );

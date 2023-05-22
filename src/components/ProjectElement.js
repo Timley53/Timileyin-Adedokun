@@ -29,7 +29,7 @@ return ()=> observer.disconnect()
  
 return(
 
-    <div  key={title} className={`card ${ show ? 'opacity-100  sm:opacity-100' : 'opacity-0 sm:opacity-0' } flex sm:flex-col bg-slate-400 w-[900px] md:w-[500px] sm:w-[80%] hover:scale-105 rounded-lg m-4 transition duration-[1.5s] hover:rounded-xl ${i % 2 === 0? 'self-end': 'self-start'} sm:h-[420px]`}>
+    <div  key={i + 1} className={`card ${ show ? 'opacity-100  sm:opacity-100' : 'opacity-0 sm:opacity-0' } flex sm:flex-col bg-slate-400 w-[900px] md:w-[500px] sm:w-[80%] hover:scale-105 rounded-lg m-4 transition duration-[1.5s] hover:rounded-xl ${i % 2 === 0? 'self-end': 'self-start'} sm:h-[420px]`}>
 
 
 

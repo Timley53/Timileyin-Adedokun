@@ -17,7 +17,7 @@ const [open, setOpen] = useState(false)
 
 
   return (
-    <header className='h-screen flex flex-col w-full  bg-[#e0e7ee]'>
+    <header className='h-screen flex flex-col w-full  bg-[#e0e7ee]' id='home'>
 
 
       <nav className={`w-full ${isVisible ? 'fixed sm:fixed top-0 h-auto bg-sky-200 shadow-xl' : 'static sm:static'}  flex px-20 sm:px-5 p-2 py-5 items-center justify-between z-10`}>
