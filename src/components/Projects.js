@@ -3,6 +3,7 @@ import CrowdFunding from './../resources/Projct ss/Crowdfunding-page.jpg'
 import SpaceExploration from './../resources/Projct ss/Destination.jpg'
 import timleyStore from './../resources/Projct ss/Products.jpg'
 import DoingsImg from './../resources/Projct ss/Todo-Doings.png'
+import RovCoinImg from './../resources/Projct ss/RovCoin.jpg'
 import ProjectElement from './ProjectElement'
 
 const htmlCssPj = [
@@ -16,7 +17,7 @@ const htmlCssPj = [
  {
     img: SpaceExploration,
     title: 'Space Tourism Page',
-    details: 'A page ddicated to space tourism and space knowledge',
+    details: 'A page dedicated to space tourism and space knowledge',
     link: 'https://space-tourism-timley.netlify.app/home.html',
 
     GitHub:'https://github.com/Timley53/Space-tourism'
@@ -41,6 +42,13 @@ const reactPjDb = [
       details: 'Task Management Web App',
       link: ' https://task-management2.vercel.app',
       GitHub: 'https://github.com/Timley53/task-management2' 
+    },
+
+    {
+        img:RovCoinImg,
+        details: 'A cryptocurrency landing Page',
+        link:'https://rovcoin.vercel.app',
+        GitHub: 'https://github.com/Timley53/rovcoin'
     }
 
 ]

@@ -72,15 +72,7 @@ const observer = new IntersectionObserver(([entry])=>{
         
 
            
-      Hello and welcome to my portfolio website! I'm a passionate web developer with a strong desire to learn and grow in the ever-evolving world of technology.
-
-      My enthusiasm for coding and building websites is unmatched. I've spent countless hours honing my skills and delving into various web development technologies.
-
-      My journey as a self-taught developer has been a thrilling adventure, where I've embraced challenges and sought out opportunities to expand my knowledge. I'm a firm believer in the power of continuous learning and strive to stay up-to-date with the latest trends and best practices in web development.
-
-      Through my projects and personal experiments, I have acquired expertise in HTML, CSS, and JavaScript. I'm also familiar with popular frameworks such as React, the CSS framework Tailwind and have experience working with responsive design principles. 
-
-      One of my strengths lies in my ability to strategically and relentlessly approach challenges, and my knack for problem-solving. I enjoy finding innovative solutions to challenges and always strive to deliver user-friendly and visually appealing websites. I value clean and maintainable code, and I'm meticulous in ensuring that my projects are well-organized and structured
+        Welcome to my portfolio website! I'm a passionate, self-taught web developer, constantly eager to learn and adapt to the dynamic world of technology. With a strong coding background and an unwavering dedication to building websites, I've acquired expertise in HTML, CSS, JavaScript, and frameworks like React and Tailwind. I prioritize continuous learning, staying updated with the latest trends and best practices in web development. My approach to problem-solving is strategic and persistent, and I take pride in delivering visually appealing and user-friendly websites. Clean and maintainable code is a priority for me, ensuring that my projects are well-organized and structured.
      
            </p>
 

@@ -8,10 +8,10 @@ import {AiOutlineWhatsApp, AiOutlineLinkedin, AiOutlineMail, AiOutlineGithub} fr
 function Contact() {
   return (
     <div className='bg-slate-200 pt-20 w-full'  id='contact'>
-         <h1 className='text-center'>Contact me</h1>
+         <h1 className='text-center text-3xl'>Contact me</h1>
 
          <div className="text-center w-[60%] sm:w-[80%] mx-auto">
-         .I'm open to feedback and actively seek opportunities to learn from more experienced professionals in the field.if you have any inquiries or if you'd like to collaborate on a project.
+         I'm open to feedback and actively seek opportunities to learn from more experienced professionals in the field.if you have any inquiries or if you'd like to collaborate on a project.
          </div>
 
     <div className="flex mx-auto w-[80%] items-center justify-center m-3">
