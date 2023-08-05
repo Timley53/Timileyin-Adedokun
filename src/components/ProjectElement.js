@@ -6,6 +6,8 @@ function ProjectElement( {img, title, details, link, GitHub, i}) {
     const myRe = useRef()
     const [show, setIsshow] = useState(false)
 
+
+    
     useEffect(()=>{
 
 const observer = new IntersectionObserver(([entry])=>{

@@ -37,6 +37,14 @@ const htmlCssPj = [
 
 
 const reactPjDb = [
+
+    {
+        img:RovCoinImg,
+        details: 'A cryptocurrency landing Page',
+        link:'https://rovcoin.vercel.app',
+        GitHub: 'https://github.com/Timley53/rovcoin'
+    },
+
     {
       img: DoingsImg,
       details: 'Task Management Web App',
@@ -44,12 +52,6 @@ const reactPjDb = [
       GitHub: 'https://github.com/Timley53/task-management2' 
     },
 
-    {
-        img:RovCoinImg,
-        details: 'A cryptocurrency landing Page',
-        link:'https://rovcoin.vercel.app',
-        GitHub: 'https://github.com/Timley53/rovcoin'
-    }
 
 ]
 // tr-left

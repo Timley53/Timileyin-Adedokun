@@ -12,6 +12,8 @@ import gitImg from './../resources/icons8-git-240.png'
 
 import gitHubImg from './../resources/icons8-github-250.png'
 
+import reduxImg from './../resources/Redux Image.png'
+
 
 const cardsObj = [
     {
@@ -29,6 +31,10 @@ const cardsObj = [
     {
         img: reactImg,
         title: 'React'
+    },
+    {
+        img: reduxImg,
+        title: 'Redux'
     },
     {
         img: tailWindImg,
