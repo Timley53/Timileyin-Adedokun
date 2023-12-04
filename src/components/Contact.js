@@ -19,6 +19,7 @@ function Contact() {
          </div>
 
          <div className="w-full flex items-center justify-center m-2 py-4 sm:items-start text-left">
+
          <DownloadResume/>
 
          </div>
@@ -37,7 +38,9 @@ function Contact() {
             <AiOutlineWhatsApp/>
         </a>
         <a href="https://www.linkedin.com/in/timileyin-adedokun-35b36b219" target='_blank' className='text-2xl m-3 hover:scale-110'>
+
 <AiOutlineLinkedin/>
+
         </a>
 
 <a href="https://github.com/Timley53" target='_blank' className='text-2xl m-3 hover:scale-110' >
