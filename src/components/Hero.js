@@ -31,7 +31,7 @@ function Hero() {
 </div>
        <div className="w-[50%] flex justify-center items-center h-[100%] md:hidden">
 
-            <img src={image} alt="Tim's-image" className='w-[70%] -mt-48  rounded-full'  />
+            <img src={image} alt="Tim's" className='w-[70%] -mt-48  rounded-full'  />
 
        </div>
     </section>

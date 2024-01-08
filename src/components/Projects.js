@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React from 'react'
 import CrowdFunding from './../resources/Projct ss/Crowdfunding-page.jpg'
 import SpaceExploration from './../resources/Projct ss/Destination.jpg'
 import timleyStore from './../resources/Projct ss/Products.jpg'
@@ -7,6 +7,7 @@ import RovCoinImg from './../resources/Projct ss/RovCoin.jpg'
 import runEat from "./../resources/Projct ss/runEat.jpg"
 import orangeImg from "./../resources/Projct ss/orange.jpg"
 import ProjectElement from './ProjectElement'
+import orangeLanding from './../resources/Projct ss/OrangeLanding page SS.png'
 
 const htmlCssPj = [
     {
@@ -14,7 +15,8 @@ const htmlCssPj = [
     title: 'CrowdFunding Page',
     details: 'A funding page dedicated Mastercraft Bamboo Monitor stand to reduce neck and eye strain',
     link: 'https://crowdfunding-timley53.netlify.app',
-    GitHub:'https://github.com/Timley53/crowdfunding'
+    GitHub:'https://github.com/Timley53/crowdfunding',
+    completed: true,
 }, 
  {
     img: SpaceExploration,
@@ -22,7 +24,8 @@ const htmlCssPj = [
     details: 'A page dedicated to space tourism and space knowledge',
     link: 'https://space-tourism-timley.netlify.app/home.html',
 
-    GitHub:'https://github.com/Timley53/Space-tourism'
+    GitHub:'https://github.com/Timley53/Space-tourism',
+    completed: true,
 }, 
 
  {
@@ -30,7 +33,16 @@ const htmlCssPj = [
     title: 'E-commerce Store ',
     details: 'An E-commerce store (timley) with various products and functionalities',
     link: 'https://timley-store.netlify.app',
-    GitHub: 'https://github.com/Timley53/store'
+    GitHub: 'https://github.com/Timley53/store',
+    completed: true,
+}, 
+ {
+    img: orangeLanding,
+    title: 'E-Finance app',
+    details: '',
+    link: 'https://orange-finance.vercel.app',
+    GitHub: 'https://github.com/Timley53/OrangeFinance',
+    completed: true,
 }, 
 
 
